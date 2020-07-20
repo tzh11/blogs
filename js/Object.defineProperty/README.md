@@ -89,6 +89,8 @@ console.log(person.name) // b
 
 person.name = 'c'
 console.log(_name) // c
+
+// 是不是和vue的双向绑定很像呢
 ```
 
 get和set特性在设置了configurable为false的时候一样被设置会被忽略，严格模式报错
